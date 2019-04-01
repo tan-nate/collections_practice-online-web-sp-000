@@ -49,7 +49,7 @@ end
 
 def add_s(array)
   array.collect! do |string|
-    binding.pry
+    #binding.pry
     if array.index(string) == 1
       x
     else 
