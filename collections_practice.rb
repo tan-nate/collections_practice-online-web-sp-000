@@ -1,7 +1,5 @@
 require 'pry'
 
-array = ["hand","feet", "knee", "table"]
-
 def sort_array_asc(integer_array)
   integer_array.sort
 end
@@ -56,5 +54,3 @@ def add_s(array)
     end
   end
 end
-
-binding.pry
