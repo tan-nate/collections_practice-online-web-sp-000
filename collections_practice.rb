@@ -29,12 +29,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  new_array = []
-  array.each do |string|
+  array.collect do |string|
     string.slice!(2)
-    new_array << string.split(//).insert(2, "$").join
+    string.split(//).insert(2, "$").join
   end
-  new_array
 end
 
 def find_a(array)
