@@ -30,6 +30,7 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string.slice![2]
+    string.slice!(2)
+    string.split(//)
   end
 end
