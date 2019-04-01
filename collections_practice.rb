@@ -31,6 +31,6 @@ end
 def kesha_maker(array)
   array.each do |string|
     string.slice!(2)
-    string.split(//).insert(2, "$")
+    string.split(//).insert(2, "$").join
   end
 end
