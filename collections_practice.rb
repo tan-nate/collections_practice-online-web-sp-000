@@ -19,10 +19,11 @@ end
 
 def reverse_array(array)
   i = 0
-  until i == array.length
+  initial_length = array.length
+  until i == initial_length
     new_array = []
     new_array << array.pop
-    binding.pry
+    #binding.pry
     i += 1
   end
   new_array
