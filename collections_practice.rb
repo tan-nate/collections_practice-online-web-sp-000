@@ -40,3 +40,7 @@ end
 def find_a(array)
   array.grep(/^a/)
 end
+
+def sum_array(array)
+  
+end
