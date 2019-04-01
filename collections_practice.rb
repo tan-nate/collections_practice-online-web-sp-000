@@ -21,7 +21,7 @@ def reverse_array(array)
   i = 0
   until i == array.length
     new_array = []
-    new_array << array.last
+    new_array << array.pop
     i += 1
   end
   new_array
