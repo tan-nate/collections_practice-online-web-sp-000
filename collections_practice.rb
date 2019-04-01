@@ -46,5 +46,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect {|x| x + "!"}
+  array.collect do |string|
+    if string.index == 1
+      x
+    else 
+      x + "s"
+    end
+  end
 end
