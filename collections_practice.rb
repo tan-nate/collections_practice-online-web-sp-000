@@ -58,4 +58,4 @@ def add_s(array)
   end
 end
 
-#binding.pry
+binding.pry
