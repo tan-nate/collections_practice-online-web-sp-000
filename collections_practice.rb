@@ -48,9 +48,9 @@ end
 def add_s(array)
   array.collect! do |string|
     if array.index(string) == 1
-      x
+      string
     else 
-      x + "s"
+      string + "s"
     end
   end
   binding.pry
