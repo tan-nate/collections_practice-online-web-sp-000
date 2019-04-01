@@ -52,8 +52,8 @@ def add_s(array)
     else 
       x + "s"
     end
+    binding.pry
   end
-  binding.pry
 end
 
 #binding.pry
