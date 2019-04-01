@@ -20,8 +20,8 @@ end
 def reverse_array(array)
   i = 0
   initial_length = array.length
+  new_array = []
   until i == initial_length
-    new_array = []
     new_array << array.pop
     binding.pry
     i += 1
