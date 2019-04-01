@@ -49,12 +49,12 @@ end
 
 def add_s(array)
   array.collect! do |string|
+    binding.pry
     if string.index == 1
       x
     else 
       x + "s"
     end
-    binding.pry
   end
 end
 
