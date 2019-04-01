@@ -1,5 +1,7 @@
 require 'pry'
 
+array = ["hand","feet", "knee", "table"]
+
 def sort_array_asc(integer_array)
   integer_array.sort
 end
