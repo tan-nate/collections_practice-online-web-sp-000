@@ -23,7 +23,6 @@ def reverse_array(array)
   new_array = []
   until i == initial_length
     new_array << array.pop
-    #binding.pry
     i += 1
   end
   new_array
